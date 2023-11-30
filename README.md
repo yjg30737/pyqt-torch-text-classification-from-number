@@ -35,3 +35,27 @@ If you want to do text classification from string, <a href="https://github.com/y
 
 ## Preview
 ![image](https://github.com/yjg30737/pyqt-torch-text-classification-from-number/assets/55078043/9017da2a-eb6a-4180-b3d8-d76cf7706cc1)
+
+## Correlation between each attribute and label
+
+When building a dataset, it is very important to understand the correlation between each attribute and the label (outcome). I prefer the following method:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import numpy as np
+
+df = pd.read_csv('../input/pima-indians-diabetes-database/diabetes.csv')
+
+colormap = plt.cm.gist_heat
+plt.figure(figsize=(12,12))
+
+sns.heatmap(df.corr(), linewidths=0.1, vmax=0.5, cmap=colormap, linecolor='white', annot=True)
+plt.show()
+```
+
+![image](https://github.com/yjg30737/pyqt-torch-text-classification-from-number/assets/55078043/758788b7-1e66-46f2-8bb3-d8cd8b63e817)
+
+If you look at the far right column "diabetes", there are correlation figures for each attribute. The closer it is to 1, the higher it is.
