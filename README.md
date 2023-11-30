@@ -3,6 +3,8 @@
   <img src="https://user-images.githubusercontent.com/55078043/229002952-9afe57de-b0b6-400f-9628-b8e0044d3f7b.png" width="150px" height="150px"><br/><br/>
   
   [![](https://dcbadge.vercel.app/api/server/cHekprskVE)](https://discord.gg/cHekprskVE)
+  
+  [![](https://img.shields.io/badge/한국어-readme-green)](https://github.com/yjg30737/pyqt-torch-text-classification-from-number/blob/main/README.kr.md)
 </div>
 
 Example of Text Classification Using Numbers with a PyTorch Model in a Python PyQt GUI
