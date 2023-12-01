@@ -17,7 +17,7 @@ The trained dataset is presented as follows.
 
 See the "Outcome" column; 0 indicates a negative result, and 1 indicates a positive result, suggesting the presence of diabetes in the patient's record.
 
-You can see the dataset in the "input" tab on the <a href="https://www.kaggle.com/code/yoonjunggyu/pytorch-text-classification-supervised-learning">Kaggle Notebook</a> and find the source code as well.
+You can see the dataset in the "input" tab on the <a href="https://www.kaggle.com/yoonjunggyu/diabetes-diagnosis-model-development-for-gui">Kaggle Notebook</a> and find the source code as well.
 
 Generated model is already included in the repo.
 
