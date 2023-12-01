@@ -47,7 +47,7 @@ class MainWindow(QMainWindow):
     def __initVal(self):
         self.__min = 0
         self.__max = 1000
-        model_path = 'result.pth'
+        model_path = 'result.pt'
         self.__pred = TextPredictor(model_path)
 
     def __initUi(self):
